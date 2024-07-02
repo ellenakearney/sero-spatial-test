@@ -6,11 +6,12 @@ Instead, we have provided test datasets that use the true geolocations of the vi
 Therefore, please note that the models, outputs and validations are not the same as reported in the manuscript.
 
 We have provided the Shapefiles, Raw data (rasters) and test datasets to run the scripts in the following order:
-00) Reference_grid - establishes the reference grid (Bago (East), Kayin and Kayah states)
-01) Clean_static_datat_5sd - cleans, transforms and standardises our satellite-derived covariates (rasters)
-02) SG6 spatial - model selection, run, prediction and validation for SG6 only
-02) SG6 spatial seasons - SG6 spatial - run and prediction for SG6 per season only
-02) Joint SG6 CSP PCR - model selection, run and prediction for joint spatial model 
-VIF_func - iteratively calculates VIF and removes highest 
-03) joint_validation_gsg6_na - validation for joint model that sets just gsg6 to NA in the test datasets
-03) joint_validation_all_na - validation for joint model that sets all outcomes (gsg6, csp, pcr) to NA in the test datasets
+
+. 00) Reference_grid - establishes the reference grid (Bago (East), Kayin and Kayah states)
+. 01) Clean_static_datat_5sd - cleans, transforms and standardises our satellite-derived covariates (rasters)
+. 02) SG6 spatial - model selection, run, prediction and validation for SG6 only
+. 02) SG6 spatial seasons - SG6 spatial - run and prediction for SG6 per season only
+. 02) Joint SG6 CSP PCR - model selection, run and prediction for joint spatial model 
+. VIF_func - iteratively calculates VIF and removes highest 
+. 03) joint_validation_gsg6_na - validation for joint model that sets just gsg6 to NA in the test datasets
+. 03) joint_validation_all_na - validation for joint model that sets all outcomes (gsg6, csp, pcr) to NA in the test datasets
